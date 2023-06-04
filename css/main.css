@@ -1,0 +1,239 @@
+body {
+  background-color: #FFFFFF;
+  font-family: "Montserrat";
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+section {
+  margin-top: 68px;
+}
+@media screen and (max-width: 1200px) {
+  section {
+    margin-top: 10px;
+  }
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.header__logo {
+  font-weight: 700;
+  font-size: 30px;
+  color: #95e1d3;
+}
+
+.team__mini-title, .hero__mini-title {
+  font-family: "Kaushan Script";
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.team__title, .hero__title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.team__list__item__name, .hero__first__list__item__title {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.team__list__item__description, .team__description, .hero__first__list__item__description {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 15px;
+  color: #B6B6B6;
+}
+
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  gap: 55px;
+}
+@media screen and (max-width: 1200px) {
+  .header__list {
+    display: none;
+  }
+}
+
+.header__list__item {
+  height: 30px;
+}
+
+.header__list__link {
+  color: #95E1D3;
+}
+
+.header__list__item:hover {
+  border-bottom: 3px solid #F38181;
+}
+
+.header__list__item:hover .header__list__link {
+  color: #F38181;
+}
+
+.hero .container {
+  text-align: center;
+}
+
+.hero__first__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  margin-top: 65px;
+  gap: 73px;
+}
+@media screen and (max-width: 1200px) {
+  .hero__first__list {
+    display: block;
+    width: 100%;
+  }
+}
+
+.hero__first__list__item__title {
+  color: #333333;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero__first__list__item {
+    text-align: center;
+    margin-top: 50px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.team .container {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .team__description {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.team__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .team__list {
+    display: block;
+  }
+}
+
+.team__list__item {
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .team__list__item {
+    display: block;
+  }
+}
+
+.team__list__item__description {
+  font-style: italic;
+}
+
+.footer {
+  margin-top: 80px;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 1200px) {
+  .footer .container {
+    display: block;
+    text-align: center;
+  }
+}
+
+.footer__title {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer__input-box {
+  margin-left: auto;
+}
+
+.footer__button {
+  margin: 0;
+  width: 150px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  background: #95E1D3;
+  border: none;
+}
+
+.footer__input {
+  width: 230px;
+  height: 39px;
+  background-color: #FFFFFF;
+  padding-left: 10px;
+  margin-left: auto;
+  border: 1px solid #B6B6B6;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,43 @@
+.footer{
+    margin-top: 80px;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    @media screen and (max-width:1200px) {
+        display: block;
+        text-align: center;
+    }
+}
+
+.footer__title{
+    font-weight: 400;
+font-size: 14px;
+
+}
+
+.footer__input-box{
+    margin-left: auto;
+}
+
+.footer__button{
+    margin: 0;
+    width: 150px;
+height: 40px;
+font-weight: 700;
+font-size: 14px;
+color: #FFFFFF;
+background: #95E1D3;
+border: none;
+}
+
+.footer__input{
+    width: 230px;
+height: 39px;
+background-color: #FFFFFF;
+padding-left: 10px;
+margin-left: auto;
+border: 1px solid #B6B6B6;
+
+}

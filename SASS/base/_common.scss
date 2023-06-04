@@ -1,0 +1,29 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+
+.container {
+    // outline: 2px solid red;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (max-width:1200px) {
+        max-width: 768px;
+    }
+
+    @media screen and (max-width:768px) {
+        max-width: 480px;
+    }
+
+    @media screen and (max-width:480px) {
+        max-width: 480px;
+    }
+}
+
+section{
+    margin-top: 68px;
+    @media screen and (max-width:1200px) {
+       margin-top: 10px;
+    }
+}
