@@ -8,22 +8,27 @@ body{
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    @media screen and (max-width:1200px) {
-        max-width: 768px;
+    @media screen and (min-width: 320px) {
+        width: 320px;
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+      @media screen and (min-width: 768px) {
+        width: 768px;
+        padding-right: 34px;
+        padding-left: 34px;
+      }
+      @media screen and (min-width: 1250px) {
+        width: 1080px;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
     }
 
-    @media screen and (max-width:768px) {
-        max-width: 480px;
-    }
-
-    @media screen and (max-width:480px) {
-        max-width: 480px;
-    }
-}
 
 section{
     margin-top: 68px;
-    @media screen and (max-width:1200px) {
+    @media screen and (max-width:1250px) {
        margin-top: 10px;
     }
 }
